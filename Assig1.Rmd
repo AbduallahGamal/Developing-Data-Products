@@ -1,0 +1,16 @@
+---
+title: "Assignment1"
+author: "Abduallah Gamal"
+date: "9/20/2019"
+output: html_document
+---
+
+```{r}
+library(leaflet)
+
+my_map <- leaflet() %>%
+  addTiles() %>%  
+  addMarkers(lng=30.5860514, lat=31.5256548, popup="Faculty of computera and informatics- zagazig university")
+my_map 
+```
+
